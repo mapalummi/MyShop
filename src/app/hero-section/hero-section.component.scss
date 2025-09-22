@@ -17,3 +17,12 @@ header {
   object-fit: cover;
   object-position: 0 30%;
 }
+
+@media (max-width: 760px){
+    .hero-img-left{
+        width: 100%;
+    }
+    .hero-img-right{
+        display: none;
+    }
+}

@@ -26,10 +26,6 @@ nav a:link {
   margin-right: 12px;
 }
 
-.right-header a:link {
-  margin-right: 22px;
-}
-
 a:link {
   color: #51793b;
 }
@@ -48,24 +44,50 @@ a:active {
 
 .left-header {
   width: 70%;
-  height: 120px;
+  height: 100px;
 }
 
-.logo-container{
-    height: 100%;
-    display: flex;
-    align-items: end;
+.logo-container {
+  height: 100%;
+  display: flex;
+  align-items: end;
 }
 
-.logo-img{
-    width: 120px;
-    height: auto;
-    margin-right: 12px;
+.logo-img {
+  width: 120px;
+  height: auto;
+  margin-right: 12px;
 }
 
 .right-header {
   width: 30%;
-  height: 120px;
+  height: 100px;
   display: flex;
   justify-content: end;
+}
+
+.right-header a:link {
+  margin-right: 22px;
+}
+
+@media (max-width: 760px) {
+  section {
+    padding: 10px 20px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .logo-img {
+    width: 60px;
+  }
+
+  h1 {
+    font-size: 16px;
+  }
+
+  .right-header a {
+    font-size: 12px;
+  }
 }
