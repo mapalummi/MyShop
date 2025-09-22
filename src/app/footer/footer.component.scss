@@ -1,0 +1,38 @@
+@import "./../../styles.scss";
+
+footer {
+  width: 100vw;
+  height: 46px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 8px 30px;
+  display: flex;
+  align-items: center;
+}
+
+section {
+  display: flex;
+  gap: 44px;
+}
+
+a:link {
+  color: black;
+  text-transform: uppercase;
+  margin-right: 22px;
+}
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: #444;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+.copyright {
+  font-size: 14px;
+}
