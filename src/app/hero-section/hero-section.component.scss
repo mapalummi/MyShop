@@ -1,0 +1,19 @@
+@import "./../../styles.scss";
+
+header {
+  max-width: 1450px;
+  height: 500px;
+  display: flex;
+}
+
+.hero-img-left {
+  width: 50%;
+  object-fit: cover;
+  object-position: 0 0%;
+}
+
+.hero-img-right {
+  width: 50%;
+  object-fit: cover;
+  object-position: 0 30%;
+}
