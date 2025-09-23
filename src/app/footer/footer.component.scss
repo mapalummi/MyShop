@@ -36,3 +36,19 @@ a:active {
 .copyright {
   font-size: 14px;
 }
+
+.footer-links {
+  font-size: 16px;
+}
+
+@media (max-width: 665px) {
+  section {
+    flex-direction: column-reverse;
+  }
+  .copyright {
+    font-size: 12px;
+  }
+  .footer-links {
+    font-size: 12px;
+  }
+}
