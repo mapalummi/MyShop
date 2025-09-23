@@ -13,6 +13,8 @@ footer {
 
 section {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 44px;
 }
 
@@ -44,6 +46,7 @@ a:active {
 @media (max-width: 665px) {
   section {
     flex-direction: column-reverse;
+    gap: 8px;
   }
   .copyright {
     font-size: 12px;

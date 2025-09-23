@@ -6,6 +6,7 @@ header {
 }
 
 section {
+  height: 100%;
   display: flex;
   padding: 30px 40px;
 }
@@ -14,6 +15,7 @@ h1 {
   font-size: 42px;
   color: #51793b;
   text-transform: uppercase;
+  // border: 1px solid red;
 }
 
 nav {
@@ -48,6 +50,7 @@ a:active {
 }
 
 .logo-container {
+  width: 100%;
   height: 100%;
   display: flex;
   align-items: end;
@@ -87,7 +90,7 @@ a:active {
     font-size: 28px;
   }
 
-  .right-header{
+  .right-header {
     height: 30px;
   }
 
@@ -96,17 +99,27 @@ a:active {
   }
 }
 
-@media (max-width: 530px){
-    header{
-        height: 120px;
-    }
-    h1{
-        font-size: 22px;
-    }
-    .logo-img {
+@media (max-width: 530px) {
+  header {
+    height: 120px;
+  }
+  section {
+    flex-direction: column-reverse;
+    padding: 10px 10px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  .logo-img {
     width: 80px;
   }
-    .right-header a {
+  .left-header {
+    width: 100%;
+  }
+  .right-header {
+    width: 100%;
+  }
+  .right-header a {
     font-size: 14px;
   }
 }
